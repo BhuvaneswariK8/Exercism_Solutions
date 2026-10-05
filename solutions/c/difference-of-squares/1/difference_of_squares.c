@@ -11,6 +11,7 @@ unsigned int square_of_sum(unsigned int n) {
     return sum * sum;
 }
 
+//Difference of square of sum and sum of squares
 unsigned int difference_of_squares(unsigned int n) {
     return square_of_sum(n) - sum_of_squares(n);
 }
